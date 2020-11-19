@@ -3,9 +3,19 @@
     <version>49.0</version>
     <types>
         <members>Class1050</members>
-        <members>ClassAGFUOKPLS</members>
-        <members>ClassAMSgaGczBa</members>
-        <members>ClassAPwPoF</members>
+        <members>ClasskOVsp</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>X31609</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>ProcessBuilder12864</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>ProcessBuilder12864</members>
+        <name>FlowDefinition</name>
     </types>
 </Package>

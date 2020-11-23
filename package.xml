@@ -2,9 +2,42 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>49.0</version>
     <types>
+        <members>A151</members>
+        <members>A27</members>
         <members>Class1050</members>
+        <members>ClassAGFUOKPLS</members>
+        <members>ClassAMSgaGczBa</members>
+        <members>ClassAPwPoF</members>
         <members>ClasskOVsp</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Apexpage1</members>
+        <members>Apexpage2</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>AccountTrigger1</members>
+        <members>SaiTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>AuRATest1</members>
+        <members>AuRATest2</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>ACCObjTest1__c.ACCField1__c</members>
+        <members>ACCObjTest1__c.ACCField2__c</members>
+        <members>ACCObjTest1__c.AutorabitExtId__c</members>
+        <members>ACCObjTest1__c.N1__c</members>
+        <members>ACCObjTest1__c.PLt1__c</members>
+        <members>ACCObjTest1__c.Plt3__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>ACCObjTest1__c</members>
+        <name>CustomObject</name>
     </types>
     <types>
         <members>X31609</members>
@@ -12,10 +45,20 @@
     </types>
     <types>
         <members>ProcessBuilder12864</members>
+        <members>ProcessBuilder_Reg1</members>
         <name>Flow</name>
     </types>
     <types>
         <members>ProcessBuilder12864</members>
+        <members>ProcessBuilder_Reg1</members>
         <name>FlowDefinition</name>
+    </types>
+    <types>
+        <members>clone profile</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Sai_ReportFolder6</members>
+        <name>Report</name>
     </types>
 </Package>

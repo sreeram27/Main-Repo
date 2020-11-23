@@ -1,0 +1,109 @@
+<aura:component >
+    
+        
+    <aura:attribute name="loginData" type="LoginData__c"
+                    default="{ 'sobjectType': 'LoginData__c',
+                             'InstanceURL__c': '',
+                             'UserEmail__c': '',
+                             'UserPassword__c': '' }"/>
+    
+    <aura:attribute name="completeLoginData" type="completeLogin__c" 
+                    default="{ 'sobjectType': 'completeLogin__c',
+                             'AgentID__c': '',
+                             'FirstLastName__c': '',
+                             'LoginScreenURL__c': '',
+                             'OrgName__c': '',
+                             'UserEmail__c': ''}"/>
+    
+    
+    
+    <div class="slds-spinner_container" aura:id="spinnerDiv">
+        <div class="slds-spinner--brand slds-spinner slds-spinner--large" aria-hidden="false" role="alert">
+            <div class="slds-spinner__dot-a"></div>
+            <div class="slds-spinner__dot-b"></div>
+        </div>
+    </div>
+    
+    <!-- PAGE HEADER -->
+    <div class="slds-page-header" role="banner">
+        <div class="slds-grid">
+            <div class="slds-col">
+                <h1 class="slds-text-heading--large" align="center">AutoRABIT</h1>
+            </div>
+        </div>
+    </div>
+    <!-- / PAGE HEADER -->
+    
+    <!-- LOGIN FORM -->
+    <div class="slds-col slds-col--padded slds-p-top--large" align="center">
+        <div class="slds-text-heading--small" style="color:red;" aura:id="sampleCheckDiv">
+            <ui:outputText value="" aura:id="loginerrordiv"/>
+        </div>
+        
+        <div aria-labelledby="loginform">
+            
+            <!-- BOXED AREA -->
+            <fieldset class="slds-box slds-theme--default slds-container--small">
+                
+                <legend id="loginform" class="slds-text-heading--small 
+                                              slds-p-vertical--medium">
+                    Login
+                </legend>
+                
+                <!-- CREATE LOGIN FORM -->
+                <form class="slds-form--stacked" onkeyup="{!c.formPress}">
+                    
+                    <div class="slds-form-element slds-is-required" align="left">
+                        <div class="slds-form-element__control">
+                            <ui:inputText aura:id="logininstanceurl" label="Instance"
+                                          class="slds-input"
+                                          labelClass="slds-form-element__label"
+                                          value="{!v.loginData.InstanceURL__c}"
+                                          placeholder="instance.autorabit.com"
+                                          required="true"
+                                          updateOn="keyup"/>
+                        </div>
+                        <ui:outputText value="{!'https://' + v.loginData.InstanceURL__c}"/>
+                    </div>
+                    
+                    <div class="slds-form-element slds-is-required" align="left">
+                        <div class="slds-form-element__control">
+                            <ui:inputText aura:id="loginusermail" label="Username"
+                                          class="slds-input"
+                                          labelClass="slds-form-element__label"
+                                          value="{!v.loginData.UserEmail__c}"
+                                          required="true"/>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="slds-form-element slds-is-required" align="left">
+                        <div class="slds-form-element__control" onkeyup="{!c.passwordField}" >
+                            <ui:inputText aura:id="loginuserpassword"
+                                          label="Password"
+                                          class="slds-input"
+                                          labelClass="slds-form-element__label"
+                                          value="{!v.loginData.UserPassword__c}"
+                                          required="true"/>
+                        </div>
+                    </div>
+                    
+                    <div class="slds-form-element" align="center">
+                        <ui:button label="Login"
+                                   class="slds-button slds-button--brand"
+                                   press="{!c.loginAuthorizer}"/>
+                    </div>
+                    
+                </form>
+                <!-- / CREATE LOGIN FORM -->
+                
+            </fieldset>
+            <!-- / BOXED AREA -->
+            
+        </div>
+        <!-- / CREATE LOGIN FORM -->
+        
+    </div>
+    <!-- / LOGIN FORM -->
+    
+</aura:component>

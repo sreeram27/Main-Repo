@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TCObj1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TCObj1s</value>
+    </caseValues>
+    <fields>
+        <label><!-- F1 --></label>
+        <name>F1__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewField1 --></label>
+        <name>NewField1__c</name>
+    </fields>
+    <fields>
+        <label><!-- PC1 --></label>
+        <name>PC1__c</name>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation><!-- 22 --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

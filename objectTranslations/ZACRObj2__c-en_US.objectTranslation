@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ZACRObj2</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ZACRObj2s</value>
+    </caseValues>
+    <fields>
+        <label><!-- field1 --></label>
+        <name>field1__c</name>
+    </fields>
+    <fields>
+        <label><!-- field2 --></label>
+        <name>field2__c</name>
+    </fields>
+    <fields>
+        <label><!-- field3 --></label>
+        <name>field3__c</name>
+    </fields>
+    <fields>
+        <label><!-- field4 --></label>
+        <name>field4__c</name>
+    </fields>
+    <fields>
+        <label><!-- field5 --></label>
+        <name>field5__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

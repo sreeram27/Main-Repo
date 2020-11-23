@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>InDevelopment</deploymentStatus>
+    <description>bigobject</description>
+    <fields>
+        <fullName>ID__c</fullName>
+        <externalId>false</externalId>
+        <label>ID</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <indexes>
+        <fullName>BHIndex</fullName>
+        <fields>
+            <name>ID__c</name>
+            <sortDirection>ASC</sortDirection>
+        </fields>
+        <label>BHIndex</label>
+    </indexes>
+    <label>BigHack</label>
+    <pluralLabel>BigHacks</pluralLabel>
+</CustomObject>

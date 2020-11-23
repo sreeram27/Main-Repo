@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>RkTestFlow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>RkTestFlow</label>
+    <processType>Flow</processType>
+    <screens>
+        <name>EndTag</name>
+        <label>EndTag</label>
+        <locationX>311</locationX>
+        <locationY>234</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>MyScreen</name>
+        <label>MyScreen</label>
+        <locationX>271</locationX>
+        <locationY>31</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>EndTag</targetReference>
+        </connector>
+        <fields>
+            <name>Header</name>
+            <fieldText>This Flow for Environment variable test</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Name</name>
+            <dataType>String</dataType>
+            <fieldText>Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>MyScreen</startElementReference>
+    <status>Draft</status>
+</Flow>

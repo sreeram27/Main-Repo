@@ -1,0 +1,32 @@
+<template>
+    <template if:true={showModal}>
+        <section
+        role="dialog"
+        tabindex="-1"
+        aria-labelledby="modal-heading-01"
+        aria-modal="true"
+        aria-describedby="modal-content-id-1"
+        class="slds-modal slds-fade-in-open"
+        >
+        <div class="slds-modal__container">
+            <header class="slds-modal__header slds-modal__header_empty">
+            </header>        
+            <div class="slds-modal__content slds-p-around_x-large"
+                 id="modal-content-id-1">
+                 <div class="slds-grid slds-gutters">
+                    <lightning-button class="slds-button slds-button_brand slds-col slds-size_1-of-3" variant="brand" 
+                                      label="Accept" title="Primary action" 
+                                      onclick={handleAccept} >
+                    </lightning-button>
+                    <div class="slds-col slds-size_1-of-3"></div>
+                    <lightning-button class=" slds-button slds-button_brand slds-col slds-size_1-of-3" variant="brand" 
+                                      label="Cancel" title="Primary action" 
+                                      onclick={handleCancel} >
+                    </lightning-button>
+                 </div>   
+            </div>
+        </div>              
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>

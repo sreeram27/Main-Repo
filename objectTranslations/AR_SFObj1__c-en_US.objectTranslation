@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AR-SFObj1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ARSFObj1s</value>
+    </caseValues>
+    <fields>
+        <label><!-- ARSFField4 --></label>
+        <name>ARSFField4__c</name>
+    </fields>
+    <fields>
+        <label><!-- AR-SFField1 --></label>
+        <name>AR_SFField1__c</name>
+    </fields>
+    <fields>
+        <label><!-- AR-SFField2 --></label>
+        <name>AR_SFField2__c</name>
+    </fields>
+    <fields>
+        <label><!-- f3 --></label>
+        <name>f3__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter a value --></errorMessage>
+        <name>ARSFvalidationRule1</name>
+    </validationRules>
+</CustomObjectTranslation>

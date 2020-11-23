@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EC-AccObj1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ECAccObj1s</value>
+    </caseValues>
+    <fields>
+        <label><!-- ECOBjField1 --></label>
+        <name>ECOBjField1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field2 --></label>
+        <name>Field2__c</name>
+    </fields>
+    <fields>
+        <label><!-- PickLIstField --></label>
+        <name>PickLIstField__c</name>
+        <picklistValues>
+            <masterLabel>test</masterLabel>
+            <translation><!-- test --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist2 --></label>
+        <name>Picklist2__c</name>
+        <picklistValues>
+            <masterLabel>test</masterLabel>
+            <translation><!-- test --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PicklistFeidl1 --></label>
+        <name>PicklistFeidl1__c</name>
+        <picklistValues>
+            <masterLabel>test</masterLabel>
+            <translation><!-- test --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklists7 --></label>
+        <name>Picklists7__c</name>
+        <picklistValues>
+            <masterLabel>sds</masterLabel>
+            <translation><!-- sds --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Piclist10 --></label>
+        <name>Piclist10__c</name>
+        <picklistValues>
+            <masterLabel>dfd</masterLabel>
+            <translation><!-- dfd --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Piclist8 --></label>
+        <name>Piclist8__c</name>
+        <picklistValues>
+            <masterLabel>lk;</masterLabel>
+            <translation><!-- lk; --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pikclist4 --></label>
+        <name>Pikclist4__c</name>
+        <picklistValues>
+            <masterLabel>test</masterLabel>
+            <translation><!-- test --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pl3 --></label>
+        <name>Pl3__c</name>
+    </fields>
+    <fields>
+        <label><!-- picklist567 --></label>
+        <name>picklist567__c</name>
+        <picklistValues>
+            <masterLabel>ds</masterLabel>
+            <translation><!-- ds --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- piclisit9 --></label>
+        <name>piclisit9__c</name>
+        <picklistValues>
+            <masterLabel>sd</masterLabel>
+            <translation><!-- sd --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- ECrecordTypeTest3 --></label>
+        <name>ECrecordTypeTest3</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Test1 --></label>
+        <name>Test1</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter a value --></errorMessage>
+        <name>ECVRule1</name>
+    </validationRules>
+</CustomObjectTranslation>

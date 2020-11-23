@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Dbj1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dbj1s</value>
+    </caseValues>
+    <fields>
+        <label><!-- F1 --></label>
+        <name>F1__c</name>
+    </fields>
+    <fields>
+        <label><!-- F2 --></label>
+        <name>F2__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Dbj_RC1 --></label>
+        <name>Dbj_RC1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Dbj_RC2 --></label>
+        <name>Dbj_RC2</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

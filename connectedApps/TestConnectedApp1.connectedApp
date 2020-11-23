@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>saikumar.k@autorabit.com</contactEmail>
+    <contactPhone>939352779</contactPhone>
+    <iconUrl>https://login.salesforce.com/logos/Salesforce/AppLauncher/icon.png</iconUrl>
+    <infoUrl>https://ap7.salesforce.com/logos/?</infoUrl>
+    <label>TestConnectedApp1</label>
+    <logoUrl>https://login.salesforce.com/logos/Salesforce/AppLauncher/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/</callbackUrl>
+        <idTokenConfig>
+            <idTokenAudience>https://ap7.salesforce.com/logos/?</idTokenAudience>
+            <idTokenIncludeAttributes>false</idTokenIncludeAttributes>
+            <idTokenIncludeCustomPerms>false</idTokenIncludeCustomPerms>
+            <idTokenIncludeStandardClaims>false</idTokenIncludeStandardClaims>
+            <idTokenValidity>2</idTokenValidity>
+        </idTokenConfig>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

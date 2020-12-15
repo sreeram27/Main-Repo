@@ -14,12 +14,18 @@
         <members>A10</members>
         <members>A151</members>
         <members>A27</members>
+        <members>AClassGrbUxSvpWGl</members>
         <members>ANewCls1</members>
         <members>ApexClassTwenty</members>
         <members>BackUpTest</members>
+        <members>Class1050</members>
         <members>Class1744</members>
         <members>Class1754</members>
         <members>Class1RsmSU6</members>
+        <members>ClassAGFUOKPLS</members>
+        <members>ClassAMSgaGczBa</members>
+        <members>ClassAPwPoF</members>
+        <members>ClasskOVsp</members>
         <members>Km4</members>
         <members>NCinols1</members>
         <members>Ncn1</members>
@@ -1831,6 +1837,10 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>X31609</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
         <members>Folder1</members>
         <members>Folder1/DocTest1.text</members>
         <members>Folder2</members>
@@ -1870,12 +1880,14 @@
     </types>
     <types>
         <members>Pradeep</members>
+        <members>ProcessBuilder12864</members>
         <members>ProcessBuilder_Reg1</members>
         <members>RkTestFlow</members>
         <name>Flow</name>
     </types>
     <types>
         <members>Pradeep</members>
+        <members>ProcessBuilder12864</members>
         <members>ProcessBuilder_Reg1</members>
         <members>RkTestFlow</members>
         <name>FlowDefinition</name>
